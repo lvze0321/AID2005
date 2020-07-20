@@ -3,7 +3,7 @@ with语句块 打开文件
 """
 
 # 生成f
-with open('file.txt','rb+') as f:
+with open('file.txt','wb+') as f:
     data = f.read(5)
     print(data.decode())
     f.write(b"hahahaha")
